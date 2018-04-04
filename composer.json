@@ -16,7 +16,7 @@
 
   "autoload": {
     "psr-4": {
-      "Torans\\tree": "src/"
+      "Torans\\tree\\": "src/"
     }
   }
 }
