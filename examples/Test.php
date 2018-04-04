@@ -8,12 +8,13 @@
  * Email: demo.ran@icloud.com
  */
 
-class Test
+class ArrayToTreeTest
 {
 
     public function toLevel()
     {
         $data = [];
-        return array2level($data);
+//        return ArrayToTree::arr2level($data);
+        return \Torans\Tree\ArrayToTree::arr2tree($data);
     }
 }
